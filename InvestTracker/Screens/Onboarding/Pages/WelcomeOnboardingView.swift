@@ -9,7 +9,11 @@ import SwiftUI
 
 struct WelcomeOnboardingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Onboarding Step 1")
+                .font(.title)
+            // Add your content for the first onboarding step here
+        }
     }
 }
 

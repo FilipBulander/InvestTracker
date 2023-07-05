@@ -1,19 +1,17 @@
 //
-//  OnboardingVC.swift
+//  MainVC.swift
 //  InvestTracker
 //
-//  Created by Filip Bulander on 03.07.2023.
+//  Created by Filip Bulander on 05.07.2023.
 //
 
 import UIKit
-import SnapKit
 import SwiftUI
 
-class OnboardingVC: UIViewController {
+class MainVC: UIViewController {
+    private var vm: MainVM
     
-    private var vm: OnboardingVM
-
-    init(vm: OnboardingVM) {
+    init(vm: MainVM) {
         self.vm = vm
         super.init(nibName: nil, bundle: nil)
     }
@@ -24,7 +22,7 @@ class OnboardingVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rootView = OnboardingView(vm: vm)
+        let rootView = MainView()
         let hostingController = UIHostingController(rootView: rootView)
         addChild(hostingController)
         view.addSubview(hostingController.view)

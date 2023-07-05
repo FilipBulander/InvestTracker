@@ -7,52 +7,29 @@
 
 import SwiftUI
 
-struct OnboardingStep1View: View {
-    var body: some View {
-        VStack {
-            Text("Onboarding Step 1")
-                .font(.title)
-            // Add your content for the first onboarding step here
-        }
-    }
-}
-
-struct OnboardingStep2View: View {
-    var body: some View {
-        VStack {
-            Text("Onboarding Step 2")
-                .font(.title)
-            // Add your content for the second onboarding step here
-        }
-    }
-}
-
-struct OnboardingStep3View: View {
-    var body: some View {
-        VStack {
-            Text("Onboarding Step 3")
-                .font(.title)
-            // Add your content for the third onboarding step here
-        }
-    }
-}
-
 struct OnboardingView: View {
+    private var vm: OnboardingVM?
+    
+    init(vm: OnboardingVM? = nil) {
+        self.vm = vm
+    }
+    
     var body: some View {
+        VStack(spacing: 0) {
             TabView {
-                OnboardingStep1View()
+                WelcomeOnboardingView()
                     .tabItem {
                         Image(systemName: "1.circle")
                         Text("Step 1")
                     }
                 
-                OnboardingStep2View()
+                ChecklistCategoryOnboardingView()
                     .tabItem {
                         Image(systemName: "2.circle")
                         Text("Step 2")
                     }
                 
-                OnboardingStep3View()
+                DivideCategoryOnboardingView()
                     .tabItem {
                         Image(systemName: "3.circle")
                         Text("Step 3")
@@ -61,6 +38,12 @@ struct OnboardingView: View {
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
         }
+        Button(action: {
+            vm?.onFinish()
+        }, label: {
+            Text("Open main screen")
+        })
+    }
 }
 
 struct OnboardingView_Previews: PreviewProvider {

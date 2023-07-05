@@ -8,5 +8,13 @@
 import Foundation
 
 class OnboardingVM {
+    private var router: OnboardingRouter
     
+    init(router: OnboardingRouter) {
+        self.router = router
+    }
+    
+    func onFinish() {
+        router.onFinish()
+    }
 }

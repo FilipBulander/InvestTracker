@@ -16,8 +16,17 @@ class AppRouter {
     }
     
     func start() {
-        let onboardingVC = OnboardingVC()
-        navigationController?.isNavigationBarHidden = true
-        navigationController?.pushViewController(onboardingVC, animated: true)
+        startOnboarding()
+    }
+    
+    func startOnboarding() {
+        let vc = OnboardingBuilder.build(appRouter: self)
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func startMainScreen() {
+        let vc = MainBuilder.build(appRouter: self)
+        navigationController?.navigationBar.isHidden = true
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
