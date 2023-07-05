@@ -17,6 +17,21 @@
 		3D126E5F2A556D62008CD791 /* DivideCategoryOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E5E2A556D62008CD791 /* DivideCategoryOnboardingView.swift */; };
 		3D126E672A556F2A008CD791 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D126E662A556F2A008CD791 /* SnapKit */; };
 		3D126E692A556FBF008CD791 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E682A556FBF008CD791 /* MainBuilder.swift */; };
+		3D126E6B2A55A603008CD791 /* AddSubcategoriesOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E6A2A55A603008CD791 /* AddSubcategoriesOnboardingView.swift */; };
+		3D126E6D2A55A643008CD791 /* CurrencySelectionOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E6C2A55A643008CD791 /* CurrencySelectionOnboardingView.swift */; };
+		3D126E6F2A55A653008CD791 /* NotificationOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E6E2A55A653008CD791 /* NotificationOnboardingView.swift */; };
+		3D126E712A55A67F008CD791 /* FirstTrackOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E702A55A67F008CD791 /* FirstTrackOnboardingView.swift */; };
+		3D126E742A55A6AF008CD791 /* SimpleTrackOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E732A55A6AF008CD791 /* SimpleTrackOnboardingView.swift */; };
+		3D126E762A55A6BB008CD791 /* MultipleTrackOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E752A55A6BB008CD791 /* MultipleTrackOnboardingView.swift */; };
+		3D126E7A2A55A8E9008CD791 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D126E7C2A55A8E9008CD791 /* Localizable.strings */; };
+		3D126E822A55AA66008CD791 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 3D126E812A55AA66008CD791 /* RswiftLibrary */; };
+		3D126E8B2A55AC25008CD791 /* CheckboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E8A2A55AC25008CD791 /* CheckboxRowView.swift */; };
+		3D126E8D2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E8C2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift */; };
+		3D126E912A55AE82008CD791 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E902A55AE82008CD791 /* Category.swift */; };
+		3D126E962A55BC0A008CD791 /* PlasticButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E952A55BC0A008CD791 /* PlasticButtonStyle.swift */; };
+		3D126E9C2A55BCBB008CD791 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E9B2A55BCBB008CD791 /* Color.swift */; };
+		3D126EA12A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126EA02A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift */; };
+		3DA11B802A55E7B600AB480D /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B7F2A55E7B600AB480D /* WaveShape.swift */; };
 		3DD4835B2A531DB3005B94ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD4835A2A531DB3005B94ED /* Assets.xcassets */; };
 		3DD4835E2A531DB3005B94ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD4835D2A531DB3005B94ED /* Preview Assets.xcassets */; };
 		3DD483652A531EAC005B94ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD483642A531EAC005B94ED /* AppDelegate.swift */; };
@@ -38,6 +53,23 @@
 		3D126E5C2A556D50008CD791 /* ChecklistCategoryOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistCategoryOnboardingView.swift; sourceTree = "<group>"; };
 		3D126E5E2A556D62008CD791 /* DivideCategoryOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideCategoryOnboardingView.swift; sourceTree = "<group>"; };
 		3D126E682A556FBF008CD791 /* MainBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		3D126E6A2A55A603008CD791 /* AddSubcategoriesOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubcategoriesOnboardingView.swift; sourceTree = "<group>"; };
+		3D126E6C2A55A643008CD791 /* CurrencySelectionOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionOnboardingView.swift; sourceTree = "<group>"; };
+		3D126E6E2A55A653008CD791 /* NotificationOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOnboardingView.swift; sourceTree = "<group>"; };
+		3D126E702A55A67F008CD791 /* FirstTrackOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTrackOnboardingView.swift; sourceTree = "<group>"; };
+		3D126E732A55A6AF008CD791 /* SimpleTrackOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTrackOnboardingView.swift; sourceTree = "<group>"; };
+		3D126E752A55A6BB008CD791 /* MultipleTrackOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTrackOnboardingView.swift; sourceTree = "<group>"; };
+		3D126E7B2A55A8E9008CD791 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D126E7D2A55A910008CD791 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D126E7E2A55A916008CD791 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D126E7F2A55A921008CD791 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3D126E8A2A55AC25008CD791 /* CheckboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxRowView.swift; sourceTree = "<group>"; };
+		3D126E8C2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistCategoryOnboardingVM.swift; sourceTree = "<group>"; };
+		3D126E902A55AE82008CD791 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3D126E952A55BC0A008CD791 /* PlasticButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticButtonStyle.swift; sourceTree = "<group>"; };
+		3D126E9B2A55BCBB008CD791 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3D126EA02A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideCategoryOnboardingVM.swift; sourceTree = "<group>"; };
+		3DA11B7F2A55E7B600AB480D /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		3DD483532A531DB2005B94ED /* InvestTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD4835A2A531DB3005B94ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD4835D2A531DB3005B94ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D126E672A556F2A008CD791 /* SnapKit in Frameworks */,
+				3D126E822A55AA66008CD791 /* RswiftLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +106,85 @@
 				3D126E682A556FBF008CD791 /* MainBuilder.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3D126E722A55A683008CD791 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E732A55A6AF008CD791 /* SimpleTrackOnboardingView.swift */,
+				3D126E752A55A6BB008CD791 /* MultipleTrackOnboardingView.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		3D126E792A55A8D9008CD791 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E7C2A55A8E9008CD791 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D126E862A55AC10008CD791 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E5C2A556D50008CD791 /* ChecklistCategoryOnboardingView.swift */,
+				3D126E8A2A55AC25008CD791 /* CheckboxRowView.swift */,
+				3D126E8C2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3D126E8F2A55AE73008CD791 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E902A55AE82008CD791 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D126E932A55BBF9008CD791 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3DA11B7E2A55E79F00AB480D /* Shapes */,
+				3D126E982A55BCA4008CD791 /* Extensions */,
+				3D126E942A55BC00008CD791 /* Styles */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3D126E942A55BC00008CD791 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E952A55BC0A008CD791 /* PlasticButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		3D126E982A55BCA4008CD791 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E9B2A55BCBB008CD791 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D126E9F2A55BE29008CD791 /* Subcategories */ = {
+			isa = PBXGroup;
+			children = (
+				3D126E5E2A556D62008CD791 /* DivideCategoryOnboardingView.swift */,
+				3D126EA02A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift */,
+				3D126E6A2A55A603008CD791 /* AddSubcategoriesOnboardingView.swift */,
+			);
+			path = Subcategories;
+			sourceTree = "<group>";
+		};
+		3DA11B7E2A55E79F00AB480D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				3DA11B7F2A55E7B600AB480D /* WaveShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 		3DD4834A2A531DB2005B94ED = {
@@ -98,7 +210,10 @@
 				3DD483642A531EAC005B94ED /* AppDelegate.swift */,
 				3DD483672A53206B005B94ED /* AppRouter.swift */,
 				3DD483662A531F6D005B94ED /* Screens */,
+				3D126E8F2A55AE73008CD791 /* Models */,
+				3D126E932A55BBF9008CD791 /* UI */,
 				3DD4835A2A531DB3005B94ED /* Assets.xcassets */,
+				3D126E792A55A8D9008CD791 /* Resources */,
 				3DD4835C2A531DB3005B94ED /* Preview Content */,
 			);
 			path = InvestTracker;
@@ -139,8 +254,12 @@
 			isa = PBXGroup;
 			children = (
 				3DD4836F2A5323F4005B94ED /* WelcomeOnboardingView.swift */,
-				3D126E5C2A556D50008CD791 /* ChecklistCategoryOnboardingView.swift */,
-				3D126E5E2A556D62008CD791 /* DivideCategoryOnboardingView.swift */,
+				3D126E862A55AC10008CD791 /* Categories */,
+				3D126E9F2A55BE29008CD791 /* Subcategories */,
+				3D126E6C2A55A643008CD791 /* CurrencySelectionOnboardingView.swift */,
+				3D126E6E2A55A653008CD791 /* NotificationOnboardingView.swift */,
+				3D126E702A55A67F008CD791 /* FirstTrackOnboardingView.swift */,
+				3D126E722A55A683008CD791 /* Tracking */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -167,10 +286,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				3D126E842A55AA82008CD791 /* PBXTargetDependency */,
 			);
 			name = InvestTracker;
 			packageProductDependencies = (
 				3D126E662A556F2A008CD791 /* SnapKit */,
+				3D126E812A55AA66008CD791 /* RswiftLibrary */,
 			);
 			productName = InvestTracker;
 			productReference = 3DD483532A531DB2005B94ED /* InvestTracker.app */;
@@ -197,11 +318,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				cs,
+				de,
+				"zh-Hans",
 			);
 			mainGroup = 3DD4834A2A531DB2005B94ED;
 			packageReferences = (
 				3D126E652A556F2A008CD791 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3D126E802A55AA66008CD791 /* XCRemoteSwiftPackageReference "R" */,
 			);
 			productRefGroup = 3DD483542A531DB2005B94ED /* Products */;
 			projectDirPath = "";
@@ -218,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD4835E2A531DB3005B94ED /* Preview Assets.xcassets in Resources */,
+				3D126E7A2A55A8E9008CD791 /* Localizable.strings in Resources */,
 				3DD4835B2A531DB3005B94ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,17 +354,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D126E712A55A67F008CD791 /* FirstTrackOnboardingView.swift in Sources */,
 				3D126E5D2A556D50008CD791 /* ChecklistCategoryOnboardingView.swift in Sources */,
+				3D126E6F2A55A653008CD791 /* NotificationOnboardingView.swift in Sources */,
+				3D126E8B2A55AC25008CD791 /* CheckboxRowView.swift in Sources */,
+				3D126E8D2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift in Sources */,
+				3D126E762A55A6BB008CD791 /* MultipleTrackOnboardingView.swift in Sources */,
 				3DD483742A53283F005B94ED /* RootVC.swift in Sources */,
 				3D126E4C2A5567C0008CD791 /* MainView.swift in Sources */,
+				3D126EA12A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift in Sources */,
+				3D126E6D2A55A643008CD791 /* CurrencySelectionOnboardingView.swift in Sources */,
+				3DA11B802A55E7B600AB480D /* WaveShape.swift in Sources */,
 				3DD483682A53206B005B94ED /* AppRouter.swift in Sources */,
 				3DD4836D2A532284005B94ED /* OnboardingView.swift in Sources */,
+				3D126E962A55BC0A008CD791 /* PlasticButtonStyle.swift in Sources */,
 				3D126E5B2A556B6E008CD791 /* OnboardingBuilder.swift in Sources */,
 				3D126E5F2A556D62008CD791 /* DivideCategoryOnboardingView.swift in Sources */,
+				3D126E742A55A6AF008CD791 /* SimpleTrackOnboardingView.swift in Sources */,
 				3D126E4E2A5567F6008CD791 /* MainVC.swift in Sources */,
 				3D126E692A556FBF008CD791 /* MainBuilder.swift in Sources */,
+				3D126E9C2A55BCBB008CD791 /* Color.swift in Sources */,
+				3D126E912A55AE82008CD791 /* Category.swift in Sources */,
 				3D126E552A5569BD008CD791 /* OnboardingRouter.swift in Sources */,
 				3DD4836B2A53223A005B94ED /* OnboardingVC.swift in Sources */,
+				3D126E6B2A55A603008CD791 /* AddSubcategoriesOnboardingView.swift in Sources */,
 				3D126E592A556A85008CD791 /* MainVM.swift in Sources */,
 				3DD483702A5323F4005B94ED /* WelcomeOnboardingView.swift in Sources */,
 				3DD483762A532951005B94ED /* OnboardingVM.swift in Sources */,
@@ -250,11 +388,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3D126E842A55AA82008CD791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3D126E832A55AA82008CD791 /* RswiftGenerateInternalResources */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D126E7C2A55A8E9008CD791 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D126E7B2A55A8E9008CD791 /* en */,
+				3D126E7D2A55A910008CD791 /* cs */,
+				3D126E7E2A55A916008CD791 /* de */,
+				3D126E7F2A55A921008CD791 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3DD4835F2A531DB3005B94ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -315,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -467,6 +628,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		3D126E802A55AA66008CD791 /* XCRemoteSwiftPackageReference "R" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -474,6 +643,15 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3D126E652A556F2A008CD791 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		3D126E812A55AA66008CD791 /* RswiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D126E802A55AA66008CD791 /* XCRemoteSwiftPackageReference "R" */;
+			productName = RswiftLibrary;
+		};
+		3D126E832A55AA82008CD791 /* RswiftGenerateInternalResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:RswiftGenerateInternalResources";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

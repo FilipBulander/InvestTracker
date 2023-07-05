@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  InvestTracker
+
+  Created by Filip Bulander on 05.07.2023.
+  
+*/
+
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.next" = "Next";
+"common.continue" = "Continue";
+"common.skip" = "Skip";
+ 
+"onboarding.first.title" = "Welcome in InvestTracker!";
+"onboarding.first.description" = "Stay on top of your investments with our comprehensive Multi-Asset Investment Tracker. Whether you're a seasoned investor or just starting out, our user-friendly platform provides a centralized solution to monitor and manage your diverse portfolio, encompassing cryptocurrencies, stocks, real estate, and cash holdings.";
+"onboarding.second.title" = "Choose categories, that you want to track.";
+"onboarding.third.title" = "Do you want to break down categories to subcategories?";
