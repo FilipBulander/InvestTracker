@@ -14,7 +14,7 @@ class OnboardingVM: ObservableObject {
     private let countOfScreens = 6
     
     var divideCategoryVM: DivideCategoryOnboardingVM
-    
+    var currencySelectionVM: CurrencySelectionOnboardingVM
     
     
     @Published var checklistVM: ChecklistCategoryOnboardingVM
@@ -29,12 +29,13 @@ class OnboardingVM: ObservableObject {
         self.router = router
         checklistVM = ChecklistCategoryOnboardingVM()
         divideCategoryVM = DivideCategoryOnboardingVM()
+        currencySelectionVM = CurrencySelectionOnboardingVM()
     }
     
     func onAppear() {
         //TODO not sure if I like this approach
         divideCategoryVM.noCallback =  { [weak self] in
-            self?.tabSelection += 1
+            self?.nextPageTapped()
         }
         divideCategoryVM.yesCallback = { [weak self] in
             self?.showCategoryDividing()
@@ -51,6 +52,10 @@ class OnboardingVM: ObservableObject {
     }
     
     func nextPageTapped() {
+        if isLastPage {
+            router.onFinish()
+            return
+        }
         withAnimation {
             tabSelection += 1
         }

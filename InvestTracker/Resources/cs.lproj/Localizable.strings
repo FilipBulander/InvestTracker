@@ -16,3 +16,12 @@
 "onboarding.first.description" = "Zůstaňte na špičce svých investic díky naší komplexní platformě pro sledování více aktiv. Ať jste zkušený investor nebo teprve začínáte, naše uživatelsky přívětivé prostředí poskytuje centralizované řešení pro monitorování a správu vašeho rozmanitého portfolia, zahrnujícího kryptoměny, akcie, nemovitosti a hotovostní prostředky.";
 "onboarding.second.title" = "Vyberte kategorie, které chcete sledovat.";
 "onboarding.third.title" = "Chcete rozdělit kategorie na podkategorie?";
+"onboarding.fourth.title" = "Prosím vyberte svou preferovanou měnu.";
+
+"category.stocks" = "Akcie";
+"category.funds" = "Fondy";
+"category.realEstates" = "Nemovitosti";
+"category.cryptocurrencies" = "Kryptoměny";
+"category.commodities" = "Komodity";
+"category.cash" = "Hotovost";
+"category.other" = "Ostatní";

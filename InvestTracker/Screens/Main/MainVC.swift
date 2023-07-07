@@ -22,7 +22,7 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rootView = MainView()
+        let rootView = MainView(vm: vm)
         let hostingController = UIHostingController(rootView: rootView)
         addChild(hostingController)
         view.addSubview(hostingController.view)

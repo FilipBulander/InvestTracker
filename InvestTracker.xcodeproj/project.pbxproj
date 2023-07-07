@@ -31,7 +31,26 @@
 		3D126E962A55BC0A008CD791 /* PlasticButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E952A55BC0A008CD791 /* PlasticButtonStyle.swift */; };
 		3D126E9C2A55BCBB008CD791 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126E9B2A55BCBB008CD791 /* Color.swift */; };
 		3D126EA12A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126EA02A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift */; };
-		3DA11B802A55E7B600AB480D /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B7F2A55E7B600AB480D /* WaveShape.swift */; };
+		3D2816DE2A570D82006C0729 /* CurrencyCheckboxRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816DD2A570D82006C0729 /* CurrencyCheckboxRow.swift */; };
+		3D2816E02A571148006C0729 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816DF2A571148006C0729 /* UIDevice.swift */; };
+		3D2816E32A5714B2006C0729 /* CurrencyCheckboxListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816E22A5714B2006C0729 /* CurrencyCheckboxListItem.swift */; };
+		3D2816E62A5714E6006C0729 /* CurrencySelectionOnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816E52A5714E6006C0729 /* CurrencySelectionOnboardingVM.swift */; };
+		3D2816E92A571CDC006C0729 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816E82A571CDC006C0729 /* GraphView.swift */; };
+		3D2816ED2A571CE9006C0729 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816EC2A571CE9006C0729 /* ListView.swift */; };
+		3D2816F02A571D0B006C0729 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816EF2A571D0B006C0729 /* SettingsView.swift */; };
+		3D2816F22A571DD0006C0729 /* ListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816F12A571DD0006C0729 /* ListVM.swift */; };
+		3D2816F42A57207D006C0729 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2816F32A57207D006C0729 /* PreviewProvider.swift */; };
+		3DA11B842A56AC4C00AB480D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B832A56AC4C00AB480D /* Colors.swift */; };
+		3DA11B8A2A56B22700AB480D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B892A56B22700AB480D /* NavigationController.swift */; };
+		3DA11B8F2A56CCAC00AB480D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA11B8E2A56CCAC00AB480D /* Realm */; };
+		3DA11B912A56CCAC00AB480D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA11B902A56CCAC00AB480D /* RealmSwift */; };
+		3DA11B952A56CCE500AB480D /* DatabaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B942A56CCE500AB480D /* DatabaseInteractor.swift */; };
+		3DA11B9D2A56CFAF00AB480D /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B9C2A56CFAF00AB480D /* Inject.swift */; };
+		3DA11B9F2A56D00100AB480D /* InjectResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11B9E2A56D00100AB480D /* InjectResolver.swift */; };
+		3DA11BA12A56D01E00AB480D /* InjectSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11BA02A56D01E00AB480D /* InjectSettings.swift */; };
+		3DA11BA32A56D07B00AB480D /* SwinjectSynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11BA22A56D07B00AB480D /* SwinjectSynchronizedResolver.swift */; };
+		3DA11BA72A56D1B100AB480D /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA11BA62A56D1B100AB480D /* Swinject */; };
+		3DA11BAA2A56D23E00AB480D /* CategoryDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11BA92A56D23E00AB480D /* CategoryDB.swift */; };
 		3DD4835B2A531DB3005B94ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD4835A2A531DB3005B94ED /* Assets.xcassets */; };
 		3DD4835E2A531DB3005B94ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD4835D2A531DB3005B94ED /* Preview Assets.xcassets */; };
 		3DD483652A531EAC005B94ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD483642A531EAC005B94ED /* AppDelegate.swift */; };
@@ -69,7 +88,23 @@
 		3D126E952A55BC0A008CD791 /* PlasticButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticButtonStyle.swift; sourceTree = "<group>"; };
 		3D126E9B2A55BCBB008CD791 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3D126EA02A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideCategoryOnboardingVM.swift; sourceTree = "<group>"; };
-		3DA11B7F2A55E7B600AB480D /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
+		3D2816DD2A570D82006C0729 /* CurrencyCheckboxRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCheckboxRow.swift; sourceTree = "<group>"; };
+		3D2816DF2A571148006C0729 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		3D2816E22A5714B2006C0729 /* CurrencyCheckboxListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCheckboxListItem.swift; sourceTree = "<group>"; };
+		3D2816E52A5714E6006C0729 /* CurrencySelectionOnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionOnboardingVM.swift; sourceTree = "<group>"; };
+		3D2816E82A571CDC006C0729 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		3D2816EC2A571CE9006C0729 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3D2816EF2A571D0B006C0729 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3D2816F12A571DD0006C0729 /* ListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVM.swift; sourceTree = "<group>"; };
+		3D2816F32A57207D006C0729 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		3DA11B832A56AC4C00AB480D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3DA11B892A56B22700AB480D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		3DA11B942A56CCE500AB480D /* DatabaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseInteractor.swift; sourceTree = "<group>"; };
+		3DA11B9C2A56CFAF00AB480D /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		3DA11B9E2A56D00100AB480D /* InjectResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectResolver.swift; sourceTree = "<group>"; };
+		3DA11BA02A56D01E00AB480D /* InjectSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectSettings.swift; sourceTree = "<group>"; };
+		3DA11BA22A56D07B00AB480D /* SwinjectSynchronizedResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectSynchronizedResolver.swift; sourceTree = "<group>"; };
+		3DA11BA92A56D23E00AB480D /* CategoryDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDB.swift; sourceTree = "<group>"; };
 		3DD483532A531DB2005B94ED /* InvestTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD4835A2A531DB3005B94ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD4835D2A531DB3005B94ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -88,6 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA11B912A56CCAC00AB480D /* RealmSwift in Frameworks */,
+				3DA11BA72A56D1B100AB480D /* Swinject in Frameworks */,
+				3DA11B8F2A56CCAC00AB480D /* Realm in Frameworks */,
 				3D126E672A556F2A008CD791 /* SnapKit in Frameworks */,
 				3D126E822A55AA66008CD791 /* RswiftLibrary in Frameworks */,
 			);
@@ -99,6 +137,9 @@
 		3D126E4A2A5567A3008CD791 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3D2816E72A571CCF006C0729 /* Graph */,
+				3D2816EB2A571CE0006C0729 /* List */,
+				3D2816EE2A571CF1006C0729 /* Settings */,
 				3D126E4B2A5567C0008CD791 /* MainView.swift */,
 				3D126E4D2A5567F6008CD791 /* MainVC.swift */,
 				3D126E582A556A85008CD791 /* MainVM.swift */,
@@ -129,8 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				3D126E5C2A556D50008CD791 /* ChecklistCategoryOnboardingView.swift */,
-				3D126E8A2A55AC25008CD791 /* CheckboxRowView.swift */,
 				3D126E8C2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift */,
+				3D126E8A2A55AC25008CD791 /* CheckboxRowView.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -139,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				3D126E902A55AE82008CD791 /* Category.swift */,
+				3DA11BA92A56D23E00AB480D /* CategoryDB.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,7 +188,7 @@
 		3D126E932A55BBF9008CD791 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				3DA11B7E2A55E79F00AB480D /* Shapes */,
+				3DA11B882A56B21A00AB480D /* Custom */,
 				3D126E982A55BCA4008CD791 /* Extensions */,
 				3D126E942A55BC00008CD791 /* Styles */,
 			);
@@ -157,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				3D126E952A55BC0A008CD791 /* PlasticButtonStyle.swift */,
+				3DA11B832A56AC4C00AB480D /* Colors.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -165,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				3D126E9B2A55BCBB008CD791 /* Color.swift */,
+				3D2816DF2A571148006C0729 /* UIDevice.swift */,
+				3D2816F32A57207D006C0729 /* PreviewProvider.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -179,12 +224,68 @@
 			path = Subcategories;
 			sourceTree = "<group>";
 		};
-		3DA11B7E2A55E79F00AB480D /* Shapes */ = {
+		3D2816DB2A570BC0006C0729 /* Currency */ = {
 			isa = PBXGroup;
 			children = (
-				3DA11B7F2A55E7B600AB480D /* WaveShape.swift */,
+				3D126E6C2A55A643008CD791 /* CurrencySelectionOnboardingView.swift */,
+				3D2816E52A5714E6006C0729 /* CurrencySelectionOnboardingVM.swift */,
+				3D2816E22A5714B2006C0729 /* CurrencyCheckboxListItem.swift */,
+				3D2816DD2A570D82006C0729 /* CurrencyCheckboxRow.swift */,
 			);
-			path = Shapes;
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		3D2816E72A571CCF006C0729 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				3D2816E82A571CDC006C0729 /* GraphView.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		3D2816EB2A571CE0006C0729 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3D2816EC2A571CE9006C0729 /* ListView.swift */,
+				3D2816F12A571DD0006C0729 /* ListVM.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3D2816EE2A571CF1006C0729 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3D2816EF2A571D0B006C0729 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3DA11B882A56B21A00AB480D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				3DA11B892A56B22700AB480D /* NavigationController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		3DA11B932A56CCD500AB480D /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				3DA11B9B2A56CF9F00AB480D /* InjectPropertyWrapper */,
+				3DA11B942A56CCE500AB480D /* DatabaseInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		3DA11B9B2A56CF9F00AB480D /* InjectPropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				3DA11B9C2A56CFAF00AB480D /* Inject.swift */,
+				3DA11B9E2A56D00100AB480D /* InjectResolver.swift */,
+				3DA11BA02A56D01E00AB480D /* InjectSettings.swift */,
+				3DA11BA22A56D07B00AB480D /* SwinjectSynchronizedResolver.swift */,
+			);
+			path = InjectPropertyWrapper;
 			sourceTree = "<group>";
 		};
 		3DD4834A2A531DB2005B94ED = {
@@ -210,6 +311,7 @@
 				3DD483642A531EAC005B94ED /* AppDelegate.swift */,
 				3DD483672A53206B005B94ED /* AppRouter.swift */,
 				3DD483662A531F6D005B94ED /* Screens */,
+				3DA11B932A56CCD500AB480D /* Interactors */,
 				3D126E8F2A55AE73008CD791 /* Models */,
 				3D126E932A55BBF9008CD791 /* UI */,
 				3DD4835A2A531DB3005B94ED /* Assets.xcassets */,
@@ -256,7 +358,7 @@
 				3DD4836F2A5323F4005B94ED /* WelcomeOnboardingView.swift */,
 				3D126E862A55AC10008CD791 /* Categories */,
 				3D126E9F2A55BE29008CD791 /* Subcategories */,
-				3D126E6C2A55A643008CD791 /* CurrencySelectionOnboardingView.swift */,
+				3D2816DB2A570BC0006C0729 /* Currency */,
 				3D126E6E2A55A653008CD791 /* NotificationOnboardingView.swift */,
 				3D126E702A55A67F008CD791 /* FirstTrackOnboardingView.swift */,
 				3D126E722A55A683008CD791 /* Tracking */,
@@ -292,6 +394,9 @@
 			packageProductDependencies = (
 				3D126E662A556F2A008CD791 /* SnapKit */,
 				3D126E812A55AA66008CD791 /* RswiftLibrary */,
+				3DA11B8E2A56CCAC00AB480D /* Realm */,
+				3DA11B902A56CCAC00AB480D /* RealmSwift */,
+				3DA11BA62A56D1B100AB480D /* Swinject */,
 			);
 			productName = InvestTracker;
 			productReference = 3DD483532A531DB2005B94ED /* InvestTracker.app */;
@@ -326,6 +431,8 @@
 			packageReferences = (
 				3D126E652A556F2A008CD791 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				3D126E802A55AA66008CD791 /* XCRemoteSwiftPackageReference "R" */,
+				3DA11B8D2A56CCAC00AB480D /* XCRemoteSwiftPackageReference "realm-swift" */,
+				3DA11BA52A56D1B100AB480D /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 3DD483542A531DB2005B94ED /* Products */;
 			projectDirPath = "";
@@ -355,16 +462,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D126E712A55A67F008CD791 /* FirstTrackOnboardingView.swift in Sources */,
+				3D2816E02A571148006C0729 /* UIDevice.swift in Sources */,
+				3D2816DE2A570D82006C0729 /* CurrencyCheckboxRow.swift in Sources */,
+				3DA11B842A56AC4C00AB480D /* Colors.swift in Sources */,
+				3DA11B9F2A56D00100AB480D /* InjectResolver.swift in Sources */,
 				3D126E5D2A556D50008CD791 /* ChecklistCategoryOnboardingView.swift in Sources */,
+				3D2816E92A571CDC006C0729 /* GraphView.swift in Sources */,
 				3D126E6F2A55A653008CD791 /* NotificationOnboardingView.swift in Sources */,
+				3DA11B9D2A56CFAF00AB480D /* Inject.swift in Sources */,
 				3D126E8B2A55AC25008CD791 /* CheckboxRowView.swift in Sources */,
 				3D126E8D2A55AC8A008CD791 /* ChecklistCategoryOnboardingVM.swift in Sources */,
 				3D126E762A55A6BB008CD791 /* MultipleTrackOnboardingView.swift in Sources */,
+				3D2816F02A571D0B006C0729 /* SettingsView.swift in Sources */,
 				3DD483742A53283F005B94ED /* RootVC.swift in Sources */,
 				3D126E4C2A5567C0008CD791 /* MainView.swift in Sources */,
+				3D2816E62A5714E6006C0729 /* CurrencySelectionOnboardingVM.swift in Sources */,
+				3DA11BA12A56D01E00AB480D /* InjectSettings.swift in Sources */,
 				3D126EA12A55BF4C008CD791 /* DivideCategoryOnboardingVM.swift in Sources */,
 				3D126E6D2A55A643008CD791 /* CurrencySelectionOnboardingView.swift in Sources */,
-				3DA11B802A55E7B600AB480D /* WaveShape.swift in Sources */,
 				3DD483682A53206B005B94ED /* AppRouter.swift in Sources */,
 				3DD4836D2A532284005B94ED /* OnboardingView.swift in Sources */,
 				3D126E962A55BC0A008CD791 /* PlasticButtonStyle.swift in Sources */,
@@ -372,14 +487,22 @@
 				3D126E5F2A556D62008CD791 /* DivideCategoryOnboardingView.swift in Sources */,
 				3D126E742A55A6AF008CD791 /* SimpleTrackOnboardingView.swift in Sources */,
 				3D126E4E2A5567F6008CD791 /* MainVC.swift in Sources */,
+				3D2816F22A571DD0006C0729 /* ListVM.swift in Sources */,
 				3D126E692A556FBF008CD791 /* MainBuilder.swift in Sources */,
+				3DA11BA32A56D07B00AB480D /* SwinjectSynchronizedResolver.swift in Sources */,
 				3D126E9C2A55BCBB008CD791 /* Color.swift in Sources */,
 				3D126E912A55AE82008CD791 /* Category.swift in Sources */,
+				3DA11B8A2A56B22700AB480D /* NavigationController.swift in Sources */,
+				3D2816E32A5714B2006C0729 /* CurrencyCheckboxListItem.swift in Sources */,
 				3D126E552A5569BD008CD791 /* OnboardingRouter.swift in Sources */,
+				3D2816F42A57207D006C0729 /* PreviewProvider.swift in Sources */,
 				3DD4836B2A53223A005B94ED /* OnboardingVC.swift in Sources */,
 				3D126E6B2A55A603008CD791 /* AddSubcategoriesOnboardingView.swift in Sources */,
+				3DA11BAA2A56D23E00AB480D /* CategoryDB.swift in Sources */,
 				3D126E592A556A85008CD791 /* MainVM.swift in Sources */,
 				3DD483702A5323F4005B94ED /* WelcomeOnboardingView.swift in Sources */,
+				3DA11B952A56CCE500AB480D /* DatabaseInteractor.swift in Sources */,
+				3D2816ED2A571CE9006C0729 /* ListView.swift in Sources */,
 				3DD483762A532951005B94ED /* OnboardingVM.swift in Sources */,
 				3D126E572A556A38008CD791 /* MainRouter.swift in Sources */,
 				3DD483652A531EAC005B94ED /* AppDelegate.swift in Sources */,
@@ -542,6 +665,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -577,6 +701,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -636,6 +761,22 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		3DA11B8D2A56CCAC00AB480D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.41.0;
+			};
+		};
+		3DA11BA52A56D1B100AB480D /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -652,6 +793,21 @@
 		3D126E832A55AA82008CD791 /* RswiftGenerateInternalResources */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "plugin:RswiftGenerateInternalResources";
+		};
+		3DA11B8E2A56CCAC00AB480D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA11B8D2A56CCAC00AB480D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		3DA11B902A56CCAC00AB480D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA11B8D2A56CCAC00AB480D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		3DA11BA62A56D1B100AB480D /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA11BA52A56D1B100AB480D /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -16,3 +16,12 @@
 "onboarding.first.description" = "通过我们全面的多资产投资跟踪器，紧密关注您的投资。无论您是经验丰富的投资者还是刚刚开始，我们用户友好的平台为您提供集中式解决方案，监视和管理您的多样化投资组合，包括加密货币、股票、房地产和现金资产。";
 "onboarding.second.title" = "选择您要追踪的分类。";
 "onboarding.third.title" = "您是否希望将分类细分为子分类？";
+"onboarding.fourth.title" = "请选择您的首选货币。";
+
+"category.stocks" = "股票";
+"category.funds" = "基金";
+"category.realEstates" = "房地产";
+"category.cryptocurrencies" = "加密货币";
+"category.commodities" = "大宗商品";
+"category.cash" = "现金";
+"category.other" = "其他";

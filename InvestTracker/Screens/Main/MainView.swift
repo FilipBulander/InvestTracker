@@ -8,34 +8,43 @@
 import SwiftUI
 
 struct MainView: View {
+    @ObservedObject private var vm: MainVM
+    
+    init(vm: MainVM) {
+        self.vm = vm
+    }
+    
     var body: some View {
-        TabView {
-            // First Tab
-            Text("Tab 1")
-                .tabItem {
-                    Image(systemName: "1.square.fill")
-                    Text("Tab 1")
-                }
-            
-            // Second Tab
-            Text("Tab 2")
-                .tabItem {
-                    Image(systemName: "2.square.fill")
-                    Text("Tab 2")
-                }
-            
-            // Third Tab
-            Text("Tab 3")
-                .tabItem {
-                    Image(systemName: "3.square.fill")
-                    Text("Tab 3")
-                }
+        TabView(selection: .constant(1)) {
+            GraphView()
+                .tag(0)
+            ListView(vm: vm.listVM)
+                .tag(1)
+            SettingsView()
+                .tag(2)
         }
+        .accentColor(.main) // Set the active tab color
+        .onAppear {
+            vm.listVM.onAppear()
+            UITabBar.appearance().barTintColor = UIColor(Color.secondaryBackground)// Set the background color of the tab bar
+            UITabBar.appearance().unselectedItemTintColor = UIColor(Color.white) // Set the unselected tab color
+            UITabBar.appearance().isTranslucent = false // Set translucency to false for opaque appearance
+        }
+        .background(Color.secondaryBackground)
     }
 }
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        mockThisWorld()
+        return MainView(
+            vm: MainVM(
+                router: MainRouter(
+                    appRouter: AppRouter(
+                        navigationController: nil
+                    )
+                )
+            )
+        )
     }
 }

@@ -13,19 +13,16 @@ struct PlasticButtonStyle: ButtonStyle {
             .padding(10)
             .background(
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(Color(hex: "#51087E", alpha: 1.0))
+                    .fill(Color.secondaryBackground)
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(
-                                Color.init(
-                                    hex: "#4D4C4C",
-                                    alpha: 1.0
-                                ),
+                                Color.background,
                                 lineWidth: 1
                             )
                     )
                     .shadow(
-                        color: Color.white.opacity(0.2),
+                        color: Color.main,
                         radius: 2,
                         x: 0,
                         y: 0

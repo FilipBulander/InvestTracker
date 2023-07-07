@@ -6,11 +6,17 @@
 //
 
 import Foundation
+import SwiftUI
 
-class MainVM {
+class MainVM: ObservableObject {
     private var router: MainRouter
+    
+    var listVM: ListVM
     
     init(router: MainRouter) {
         self.router = router
+        listVM = ListVM()
     }
 }
+
+

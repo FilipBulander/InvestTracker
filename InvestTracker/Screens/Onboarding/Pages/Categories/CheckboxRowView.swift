@@ -8,26 +8,35 @@
 import SwiftUI
 
 struct CheckboxRowView: View {
-    let index: Int
+    enum Constants {
+        static var height: CGFloat = 40
+    }
+    
+    let name: String
     @Binding var isChecked: Bool
     
     var body: some View {
         HStack {
+            Text(name)
+                .foregroundColor(.white)
             Spacer()
             Image(systemName: isChecked ? "checkmark.square.fill" : "square")
                 .foregroundColor(.white)
                 .onTapGesture {
                     isChecked.toggle()
                 }
-            Text("Item \(index + 1)")
-                .foregroundColor(.white)
-            Spacer()
         }
+        .padding()
+        .frame(height: Constants.height)
     }
 }
 
 struct CheckboxRowView_Previews: PreviewProvider {
     static var previews: some View {
-        CheckboxRowView(index: 1, isChecked: .constant(true))
+        VStack {
+            CheckboxRowView(name: "Cash", isChecked: .constant(true))
+            CheckboxRowView(name: "Crypto", isChecked: .constant(false))
+        }
+        .background(Color.secondaryBackground)
     }
 }

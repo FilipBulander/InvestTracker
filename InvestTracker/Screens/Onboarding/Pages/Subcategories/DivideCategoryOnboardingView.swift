@@ -20,29 +20,16 @@ struct DivideCategoryOnboardingView: View {
     }
     
     var body: some View {
-        ZStack {
-            VStack {
-                WaveShape(
-                    amplitude: WaveConstants.amplitude,
-                    frequency: WaveConstants.frequency,
-                    phase: WaveConstants.phase * 2
-                )
-                .fill(Color.init(hex: "#51087E", alpha: 1.0))
-                .frame(height: 100)
-                Spacer()
+        VStack {
+            Text(R.string.localizable.onboardingThirdTitle)
+                .font(.title)
+                .multilineTextAlignment(.center)
+                .foregroundColor(.white)
+            HStack(spacing: Constants.buttonSpacing) {
+                noButton
+                yesButton
             }
-            .ignoresSafeArea(.all)
-            VStack {
-                Text(R.string.localizable.onboardingThirdTitle)
-                    .font(.title)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
-                HStack(spacing: Constants.buttonSpacing) {
-                    noButton
-                    yesButton
-                }
-                .frame(maxWidth: Constants.totalButtonWidth)
-            }
+            .frame(maxWidth: Constants.totalButtonWidth)
         }
     }
     
@@ -69,6 +56,8 @@ struct DivideCategoryOnboardingView: View {
 
 struct DivideCategoryOnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        DivideCategoryOnboardingView(vm: DivideCategoryOnboardingVM())
+        mockThisWorld()
+        return DivideCategoryOnboardingView(vm: DivideCategoryOnboardingVM())
+        
     }
 }

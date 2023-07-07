@@ -16,3 +16,12 @@
 "onboarding.first.description" = "Bleiben Sie mit unserem umfassenden Multi-Asset-Investment-Tracker auf dem Laufenden über Ihre Investitionen. Egal, ob Sie ein erfahrener Investor sind oder gerade erst anfangen, unsere benutzerfreundliche Plattform bietet eine zentrale Lösung zur Überwachung und Verwaltung Ihres vielfältigen Portfolios, einschließlich Kryptowährungen, Aktien, Immobilien und Barguthaben.";
 "onboarding.second.title" = "Wählen Sie Kategorien aus, die Sie verfolgen möchten.";
 "onboarding.third.title" = "Möchten Sie Kategorien in Unterkategorien aufteilen?";
+"onboarding.fourth.title" = "Bitte wählen Sie Ihre bevorzugte Währung.";
+
+"category.stocks" = "Aktien";
+"category.funds" = "Fonds";
+"category.realEstates" = "Immobilien";
+"category.cryptocurrencies" = "Kryptowährungen";
+"category.commodities" = "Rohstoffe";
+"category.cash" = "Bargeld";
+"category.other" = "Sonstige";

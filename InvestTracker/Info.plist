@@ -6,5 +6,7 @@
 	<false/>
 	<key>UILaunchScreen</key>
 	<false/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
 </dict>
 </plist>

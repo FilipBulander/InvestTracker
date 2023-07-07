@@ -8,40 +8,55 @@
 import SwiftUI
 
 struct ChecklistCategoryOnboardingView: View {
+    enum Constants {
+        static var listCornerRadius: CGFloat = 10
+        static var listShadowRadius: CGFloat = 5
+        static var underlineHeight: CGFloat = 1
+    }
+    
     @ObservedObject var vm: ChecklistCategoryOnboardingVM
     
     var body: some View {
-        ZStack {
-            VStack {
-                WaveShape(
-                    amplitude: WaveConstants.amplitude,
-                    frequency: WaveConstants.frequency,
-                    phase: WaveConstants.phase * 1
-                )
-                .fill(Color.init(hex: "#51087E", alpha: 1.0))
-                .frame(height: 100)
-                Spacer()
-            }
-            .ignoresSafeArea(.all)
-            VStack {
-                Text(R.string.localizable.onboardingSecondTitle)
-                    .font(.title)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
-                ForEach(0..<vm.isChecked.count, id: \.self) { index in
+        VStack {
+            Text(R.string.localizable.onboardingSecondTitle)
+                .font(.title)
+                .multilineTextAlignment(.center)
+                .foregroundColor(.white)
+                .frame(maxHeight: .infinity)
+            list
+        }
+        .onDisappear {
+            vm.saveCategories()
+        }
+    }
+    
+    private var list: some View {
+        VStack {
+            ForEach(0..<vm.isChecked.count, id: \.self) { index in
+                VStack {
                     CheckboxRowView(
-                        index: index,
+                        name: vm.name[index],
                         isChecked: $vm.isChecked[index]
                     )
+                    Rectangle()
+                        .fill(Color.background)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: Constants.underlineHeight)
                 }
-                .listStyle(.plain)
             }
         }
+        .frame(maxWidth: .infinity)
+        .background(Color.secondaryBackground)
+        .border(Color.background)
+        .cornerRadius(Constants.listCornerRadius)
+        .padding()
     }
 }
 
 struct ChecklistCategoryOnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        ChecklistCategoryOnboardingView(vm: ChecklistCategoryOnboardingVM())
+        mockThisWorld()
+        return ChecklistCategoryOnboardingView(vm: ChecklistCategoryOnboardingVM())
+            .background(Color.background)
     }
 }

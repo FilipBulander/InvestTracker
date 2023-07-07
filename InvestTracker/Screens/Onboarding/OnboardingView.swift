@@ -15,32 +15,44 @@ struct OnboardingView: View {
     }
     
     var body: some View {
-        VStack(spacing: 0) {
-            TabView(selection: $vm.tabSelection) {
-                WelcomeOnboardingView()
-                    .tag(0)
-                ChecklistCategoryOnboardingView(vm: vm.checklistVM)
-                    .tag(1)
-                DivideCategoryOnboardingView(vm: vm.divideCategoryVM)
-                    .tag(2)
-                CurrencySelectionOnboardingView()
-                    .tag(3)
-                NotificationOnboardingView()
-                    .tag(4)
-                FirstTrackOnboardingView()
-                    .tag(5)
-            }
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
-            .ignoresSafeArea(.all)
-            HStack {
-                skipButton
+        ZStack {
+            VStack {
+                Rectangle()
+                    .fill(Color.secondaryBackground)
+                    .shadow(color: Color.main,
+                            radius: 10)
+                    .frame(height: UIDevice.current.hasNotch ? 100 : 40)
                 Spacer()
-                nextButton
             }
-            .padding()
+            .ignoresSafeArea(.all)
+            VStack(spacing: 0) {
+                TabView(selection: $vm.tabSelection) {
+                    WelcomeOnboardingView()
+                        .tag(0)
+                    ChecklistCategoryOnboardingView(vm: vm.checklistVM)
+                        .tag(1)
+                    DivideCategoryOnboardingView(vm: vm.divideCategoryVM)
+                        .tag(2)
+                    CurrencySelectionOnboardingView(vm: vm.currencySelectionVM)
+                        .tag(3)
+                    NotificationOnboardingView()
+                        .tag(4)
+                    FirstTrackOnboardingView()
+                        .tag(5)
+                }
+                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+                .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
+                .ignoresSafeArea(.all)
+                VStack(alignment: .center) {
+                    nextButton
+                    if !vm.isLastPage {
+                        skipButton
+                    }
+                }
+                .padding()
+            }
         }
-        .background(Color.init(hex: "#4D4C4C", alpha: 1.0))
+        .background(Color.background)
         .onAppear {
             vm.onAppear()
         }
@@ -50,23 +62,21 @@ struct OnboardingView: View {
         Button(action: {
             vm.nextPageTapped()
         }, label: {
-            Text(R.string.localizable.commonNext)
-                .frame(maxWidth: .infinity)
+            Text(vm.isLastPage ?
+                 R.string.localizable.commonContinue :
+                    R.string.localizable.commonNext)
+            .frame(maxWidth: .infinity)
         })
         .buttonStyle(PlasticButtonStyle())
     }
     
     private var skipButton: some View {
         Button(action: {
-            //TODO think about this
-            vm.nextPageTapped()
+            vm.onFinish()
         }, label: {
-            Text(vm.isLastPage ?
-                 R.string.localizable.commonContinue :
-                    R.string.localizable.commonSkip
-            )
+            Text(R.string.localizable.commonSkip)
+                .foregroundColor(.gray)
             .frame(maxWidth: .infinity)
         })
-        .buttonStyle(PlasticButtonStyle())
     }
 }
